@@ -1,7 +1,7 @@
 /**
  * Extendable Main File
  * @desc This is where I'm going to register all the Reusable/Extendable/Vue-Plugin for the library
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 import Vue from 'vue'

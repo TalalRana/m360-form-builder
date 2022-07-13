@@ -1,27 +1,27 @@
 <template>
     <div id="app">
-        <h1 class="text-center mt-2">Vue-Form-Builder @ v2.1.0 - Development-Preview</h1>
-        <p class="text-center">Presented by <strong>Seth (Sandaru) Phat</strong></p>
-        <h4 class="text-center mb-3">What you <strong>BUILD</strong> is what you <strong>GOT</strong>.</h4>
+        <h1 class="text-center mt-2">Customized Forms</h1>
+        <p class="text-center">Presented by <strong>Member360</strong></p>
 
         <div class="col-md-12">
-            <button class="btn btn-info mr-2" @click="getData">Get JSON Form-Data (Console / Builder)</button>
-            <button class="btn btn-info mr-2" @click="setData">Set JSON Form-Data (Basic Configuration / Builder)</button>
-            <button class="btn btn-info mr-2" @click="createBlank">Create Blank Form (Builder)</button>
+<!--            <button class="btn btn-success mr-2" @click="setData">Create New Document Form</button> -->
+<!--            <button class="btn btn-success mr-2" @click="createBlank">Create Blank Form</button> -->
+            
+            <button class="btn btn-info mr-2" @click="getData">Save Form</button>
 
-            <button class="btn btn-info mr-2" @click="viewRenderer">
-                <span v-show="isRenderer">
-                    Back to Builder
-                </span>
-                <span v-show="!isRenderer">
-                    View Renderer Form from Basic Configuration
-                </span>
-            </button>
+<!--            <button class="btn btn-info mr-2" @click="viewRenderer">-->
+<!--                <span v-show="isRenderer">-->
+<!--                    Back to Builder-->
+<!--                </span>-->
+<!--                <span v-show="!isRenderer">-->
+<!--                    View Renderer Form from Basic Configuration-->
+<!--                </span>-->
+<!--            </button> -->
         </div>
 
         <hr>
 
-        <FormBuilder v-if="!isRenderer" v-model="formData"></FormBuilder>
+        <FormBuilder v-if="!isRenderer" :schema="schema" v-model="formData"></FormBuilder>
 
         <div class="row" v-if="isRenderer" style="padding: 20px; margin-right: 0">
             <div class="col-md-12 mb-4">
@@ -35,7 +35,8 @@
 
             <FormRenderer :class="{'col-md-9': isShowData, 'col-md-12': !isShowData}"
                           :form-configuration="formData"
-                          v-model="formInputData" />
+                          v-model="formInputData" 
+                          :options="options"/>
 
             <div class="p-0" :class="{'col-md-3': isShowData, 'd-none': !isShowData}">
                 <h4>Form Input Data</h4>
@@ -46,9 +47,7 @@
 </template>
 
 <script>
-    /**
-     * NOTE - This file only exists for development purpose.
-     */
+    
     import FormBuilder from "@/components/FormBuilder";
     import FormRenderer from "@/components/FormRenderer";
     import {DEMO_FORM_DATA} from "@/demo-form-data";
@@ -63,49 +62,52 @@
             isShowDevNote: false,
             isRenderer: false,
             formInputData: null,
-            isShowData: false
+            isShowData: false,
+            schema: []
         }),
         methods: {
             getData() {
-                console.log(JSON.stringify(this.formData))
+              // console.log(JSON.stringify(this.formData))
+              console.log(JSON.stringify(this.formData.sections))
+              console.log(JSON.stringify(this.formData.controls))
             },
 
-            createBlank() {
-                this.formData = Object.assign({})
-            },
+            // createBlank() {
+            //     this.formData = Object.assign({})
+            // },
 
-            setData() {
-                this.formData = Object.assign({}, DEMO_FORM_DATA);
-            },
+            // setData() {
+            //     this.formData = Object.assign({}, DEMO_FORM_DATA);
+            // },
 
-            viewRenderer() {
-                if (!this.isRenderer) {
-                    this.setData();
-                    this.isRenderer = true;
-                    return;
-                }
+            // viewRenderer() {
+            //     if (!this.isRenderer) {
+            //         this.setData();
+            //         this.isRenderer = true;
+            //         return;
+            //     }
+            //
+            //     this.isRenderer = false;
+            // },
 
-                this.isRenderer = false;
-            },
-
-            setRandomData() {
-                const faker = require('faker');
-
-                this.$set(this, 'formInputData', {
-                    "name": faker.name.findName(),
-                    "brief-description": faker.company.companyName(),
-                    "long-description": faker.lorem.paragraphs(),
-                    "user_email": faker.internet.email(),
-                    "is_deletable": faker.random.number({min: 0, max:1}),
-                    "doc_props": [""+faker.random.number({min: 1, max:3})],
-                    "doc_date": faker.date.past(),
-                    "doc-process-range": {
-                        startDate: faker.date.past(),
-                        endDate: faker.date.future(),
-                    },
-                    "total_value": faker.finance.amount()
-                });
-            },
+            // setRandomData() {
+            //     const faker = require('faker');
+            //
+            //     this.$set(this, 'formInputData', {
+            //         "name": faker.name.findName(),
+            //         "brief-description": faker.company.companyName(),
+            //         "long-description": faker.lorem.paragraphs(),
+            //         "user_email": faker.internet.email(),
+            //         "is_deletable": faker.random.number({min: 0, max:1}),
+            //         "doc_props": [""+faker.random.number({min: 1, max:3})],
+            //         "doc_date": faker.date.past(),
+            //         "doc-process-range": {
+            //             startDate: faker.date.past(),
+            //             endDate: faker.date.future(),
+            //         },
+            //         "total_value": faker.finance.amount()
+            //     });
+            // },
         }
     }
 </script>

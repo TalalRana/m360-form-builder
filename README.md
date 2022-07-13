@@ -1,7 +1,7 @@
 # vue-form-builder
 [![npm version](https://badge.fury.io/js/v-form-builder.svg)](https://www.npmjs.com/package/v-form-builder)
 [![GitHub license](https://img.shields.io/github/license/sethsandaru/vue-form-builder.svg?style=flat-square)](https://github.com/sethsandaru/vue-form-builder/blob/master/LICENSE) ![img](https://img.shields.io/npm/dm/v-form-builder.svg)
-[![img](https://img.shields.io/badge/documentation-full-green.svg?longCache=true&style=flat-square)](https://phattranminh96.gitbook.io/vue-form-builder/)
+[![img](https://img.shields.io/badge/documentation-full-green.svg?longCache=true&style=flat-square)](https://talal.techpro.gitbook.io/vue-form-builder/)
 
 A simple builder to help you generate a super form for your features/modules/sites,... Easy to use, create, upgrade, maintain,...
 Why need to code the form when you can use `Vue-Form-Builder` and render it with some extra steps :D
@@ -19,7 +19,7 @@ Give this repo a ⭐ (star) if you actually like this and might use it for your 
 
 Feel free to open an issue if you reach any bugs or issues. Thanks.
 
-[Vue Form Builder Documentation](https://phattranminh96.gitbook.io/vue-form-builder/)
+[Vue Form Builder Documentation](https://talal.techpro.gitbook.io/vue-form-builder/)
 
 ## Demo
 - Demo Online: [Vue Form Builder ONLINE](https://vue-form-builder.herokuapp.com/)
@@ -65,21 +65,21 @@ Latest version (@2.1.0)
 
 ## Documentation
 
-[Main Documentation of Vue-Form-Builder](https://phattranminh96.gitbook.io/vue-form-builder/)
+[Main Documentation of Vue-Form-Builder](https://talal.techpro.gitbook.io/vue-form-builder/)
 
 ## How to implement for a beginner?
 
-- [Turning Up The Form](https://phattranminh96.gitbook.io/vue-form-builder/getting-started/turning-up-the-form)
-- [Form Builder](https://phattranminh96.gitbook.io/vue-form-builder/getting-started/form-builder-starter)
-- [Form Renderer](https://phattranminh96.gitbook.io/vue-form-builder/getting-started/form-renderer-starter)
+- [Turning Up The Form](https://talal.techpro.gitbook.io/vue-form-builder/getting-started/turning-up-the-form)
+- [Form Builder](https://talal.techpro.gitbook.io/vue-form-builder/getting-started/form-builder-starter)
+- [Form Renderer](https://talal.techpro.gitbook.io/vue-form-builder/getting-started/form-renderer-starter)
 
 ### Usage / Use-cases
 
-[Some of the use-cases I mentioned](https://phattranminh96.gitbook.io/vue-form-builder/use-cases)
+[Some of the use-cases I mentioned](https://talal.techpro.gitbook.io/vue-form-builder/use-cases)
 
 ### APIs / Extending / Hard-core stuff
 
-[Visit Documentation](https://phattranminh96.gitbook.io/vue-form-builder/extending/plugin-options)
+[Visit Documentation](https://talal.techpro.gitbook.io/vue-form-builder/extending/plugin-options)
 
 ## Dependencies
 I carefully watch the dependencies of the Vue Form Builder, from the version **2.0.0** and above. Here is the list:
@@ -129,7 +129,7 @@ Then you will know what you can take a look next: configs, components, views,...
 
 I'm always available for Custom Build based on your needs for the Vue Form Builder. You can contact me via:
 
-- Email: [phattranminh96@gmail.com](mailto:phattranminh96@gmail.com)
+- Email: [talal.techpro@gmail.com](mailto:talal.techpro@gmail.com)
 - LinkedIn (On my main profile page)
 
 ## Supporting the project
@@ -137,4 +137,4 @@ You can see the lovely `Sponsor` button on the top. If you want to contribute a 
 
 Also, please show your love by giving this repository a ⭐ (star). That would lighten up my day.
 
-Copyright &copy; 2018 by [Seth Phat](http://sethphat.com) aka Phat Tran!
+Copyright &copy; 2018 by [Talal Jamil](http://sethphat.com) aka Talal Jamil!

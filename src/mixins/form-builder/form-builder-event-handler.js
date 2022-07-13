@@ -4,7 +4,7 @@
  *  - Refactoring
  *  - ...
  *  This file will be handled all the Event (mostly listening) from the children to update the big `formData`
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com>
  */
 import {EVENT_CONSTANTS} from "@/configs/events";
 import {HELPER} from "@/libraries/helper";

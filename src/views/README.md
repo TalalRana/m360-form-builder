@@ -29,4 +29,4 @@ Also, me, think this is a good strategy. And easy to learn too. Keep 1 component
     - GlobalSidebar
 
 
-< Phat Tran >
+< Talal Jamil >

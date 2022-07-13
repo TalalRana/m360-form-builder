@@ -1,6 +1,6 @@
 /**
  * Event-Communication Constants in Vue-Form-Builder
- * @author Phat Tran <phattranminh96@gmai.com>
+ * @author Talal Jamil <talal.techpro@gmai.com>
  */
 
 const EVENT_CONSTANTS = {

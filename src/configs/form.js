@@ -1,6 +1,6 @@
 /**
  * Form-Configuration for Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil  
  */
 
 const FORM_DEFAULT_DATA = {

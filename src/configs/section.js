@@ -1,6 +1,6 @@
 /**
  * Supported Section & Section Constants in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 import {HELPER} from "@/libraries/helper";
 import {ROW_TYPES} from "@/configs/row";

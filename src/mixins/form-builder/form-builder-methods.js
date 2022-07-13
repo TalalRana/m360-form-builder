@@ -4,7 +4,7 @@
  *  - Refactoring
  *  - ...
  *  This file will keep 90% methods of Form-Builder
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com>
  */
 
 import {createNewSection, SECTION_DEFAULT_DATA} from "@/configs/section";

@@ -5,7 +5,7 @@
  * The classes can be re-placed in run-time (For other CSS framework if you want)
  * But the main ideas is following Bootstrap, hopefully yours framework is have a same structural.
  * </note>
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 const STYLES = {

@@ -1,6 +1,6 @@
 /**
  * Form-Icon-Facade is a lightweight library to help you retain ICON inside Form-Builder v2
- * @author Phat Tran <phattranminh96@gmail.com>
+ * @author Talal Jamil <talal.techpro@gmail.com>
  * @license From Zondicons of Steve Schoger. Thanks very much for the beautiful/lightweight icons
  * @iconHomePage https://www.zondicons.com/
  */

@@ -1,6 +1,6 @@
 /**
  * Supported Controls in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 import {STYLES} from "@/configs/styles";
 import {HELPER} from "@/libraries/helper";

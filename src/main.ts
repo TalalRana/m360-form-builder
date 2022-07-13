@@ -13,6 +13,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueFormBuilderPlugin)
 
+
 new Vue({
   render: h => h(App)
 }).$mount('#app')

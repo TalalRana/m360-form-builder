@@ -1,6 +1,6 @@
 /**
  * Row Constants in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 import {HELPER} from "@/libraries/helper";

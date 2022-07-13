@@ -7,7 +7,7 @@ import {ROW_DEFAULT_DATA} from "@/configs/row";
 
 /**
  * Applier is an extending-object to make sure your old form-configuration still working well with the new version
- * @author Phat Tran
+ * @author Talal Jamil
  * @param {{formConfig: Object, sections: Array, rows: Object, controls: Object}|undefined} formConfigObject
  * @return {Object} Final Object that can always use with the Form-Builder/Renderer
  */

@@ -4,7 +4,7 @@
  *  - Refactoring
  *  - ...
  *  This file will be handle the v-model of the FormBuilder.
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com>
  */
 const EMIT_EVENT = "change";
 const deepEqual = require('deep-equal') // TO CHECK THE DEEPEST VALUES OF THE FORM...

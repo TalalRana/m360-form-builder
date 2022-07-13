@@ -1264,7 +1264,7 @@ module.exports = function (KEY, length, exec) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FORM_DEFAULT_DATA; });
 /**
  * Form-Configuration for Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 var FORM_DEFAULT_DATA = {
   headline: "",
@@ -1440,7 +1440,7 @@ var INFORMATION_OUTLINE_ICON = "\n<svg xmlns=\"http://www.w3.org/2000/svg\" view
 
 /**
  * Form-Icon-Facade is a lightweight library to help you retain ICON inside Form-Builder v2
- * @author Phat Tran <phattranminh96@gmail.com>
+ * @author Talal Jamil <talal.techpro@gmail.com@gmail.com>
  * @license From Zondicons of Steve Schoger. Thanks very much for the beautiful/lightweight icons
  * @iconHomePage https://www.zondicons.com/
  */
@@ -7118,7 +7118,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 // CONCATENATED MODULE: ./src/configs/index.js
 /**
  * Main Configuration of the Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 var MAIN_CONSTANTS = {
   COPYRIGHT: "Vue-Form-Builder v2.0.0 - github.com/sethsandaru with Love <3"
@@ -7149,7 +7149,7 @@ var events = __webpack_require__("fbe6");
  * Section Sort Mixins
  * @desc Where I handle the sorting (push up/down) for the Section
  * @used SectionNavigationBar
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 var SECTION_SORT_MIXINS = {
@@ -7615,7 +7615,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
  *  - Refactoring
  *  - ...
  *  This file will be handled all the Event (mostly listening) from the children to update the big `formData`
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com@gmail.com>
  */
 
 
@@ -7841,7 +7841,7 @@ var es6_object_keys = __webpack_require__("456d");
  *  - Refactoring
  *  - ...
  *  This file will be handle the v-model of the FormBuilder.
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com@gmail.com>
  */
 var EMIT_EVENT = "change";
 
@@ -8453,7 +8453,7 @@ var GlobalModal_component = Object(componentNormalizer["a" /* default */])(
 // CONCATENATED MODULE: ./src/configs/roles.js
 /**
  * Roles of Form Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 /* harmony default export */ var roles = ({
   // global
@@ -9148,7 +9148,7 @@ module.exports = __webpack_require__("584a").getIterator = function (it) {
 /* harmony import */ var _libraries_helper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("43b3");
 /**
  * Row Constants in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 var ROW_TYPES = {
@@ -14689,7 +14689,7 @@ var FileUploaderConfigView_component = Object(componentNormalizer["a" /* default
 
 /**
  * Supported Controls in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
 
@@ -20013,7 +20013,7 @@ var row = __webpack_require__("7d7e");
 
 /**
  * Applier is an extending-object to make sure your old form-configuration still working well with the new version
- * @author Phat Tran
+ * @author Talal Jamil
  * @param {{formConfig: Object, sections: Array, rows: Object, controls: Object}|undefined} formConfigObject
  * @return {Object} Final Object that can always use with the Form-Builder/Renderer
  */
@@ -20096,7 +20096,7 @@ function baseObjectExtend(baseObject, fromObject) {
  *  - Refactoring
  *  - ...
  *  This file will keep 90% methods of Form-Builder
- *  @author Phat Tran <phattranminh96@gmail.com>
+ *  @author Talal Jamil <talal.techpro@gmail.com@gmail.com>
  */
 
 
@@ -20906,7 +20906,7 @@ module.exports = function (done, value) {
  * The classes can be re-placed in run-time (For other CSS framework if you want)
  * But the main ideas is following Bootstrap, hopefully yours framework is have a same structural.
  * </note>
- * @author Phat Tran
+ * @author Talal Jamil
  */
 var STYLES = {
   CONTAINER: {
@@ -23691,7 +23691,7 @@ var section_views_TabSectionView_component = Object(componentNormalizer["a" /* d
 // CONCATENATED MODULE: ./src/configs/section.js
 /**
  * Supported Section & Section Constants in Vue-Form-Builder
- * @author Phat Tran
+ * @author Talal Jamil
  */
 
  // Builder Views
@@ -26579,7 +26579,7 @@ var FormRenderer_component = Object(componentNormalizer["a" /* default */])(
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EVENT_CONSTANTS; });
 /**
  * Event-Communication Constants in Vue-Form-Builder
- * @author Phat Tran <phattranminh96@gmai.com>
+ * @author Talal Jamil <talal.techpro@gmail.com@gmai.com>
  */
 var EVENT_CONSTANTS = {
   /**

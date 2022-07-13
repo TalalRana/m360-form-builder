@@ -2,7 +2,7 @@
  * Section Sort Mixins
  * @desc Where I handle the sorting (push up/down) for the Section
  * @used SectionNavigationBar
- * @author Phat Tran
+ * @author Talal Jamil
  */
 import {EVENT_CONSTANTS} from "@/configs/events";
 
